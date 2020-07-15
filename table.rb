@@ -7,11 +7,11 @@ class Table < Formula
 
   if OS.mac?
     url "https://github.com/elwin/table/releases/download/v1.0.1/table_1.0.1_Darwin_x86_64.tar.gz"
-    sha256 "60658c732df95a0270f87c3180298fad801a595eb80eec145f870d63bd68def9"
+    sha256 "be8edb2de7d0ae728750466c08923419c7a9aacd9922af5677dee8bcdffd90d4"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/elwin/table/releases/download/v1.0.1/table_1.0.1_Linux_x86_64.tar.gz"
-      sha256 "2247a67b6a6920fb01bd66760f95369364e02451d7643e52f983a69bbeae8b4b"
+      sha256 "26ab35be4c352a7e1735a6b5313907a308e74e563dc48c48b7024d774573a2a8"
     end
   end
 
