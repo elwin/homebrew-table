@@ -2,16 +2,16 @@
 class Table < Formula
   desc "Print CSV and JSON documents in a table format."
   homepage "https://github.com/elwin/table"
-  version "1.0.1"
+  version "1.0.2"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/elwin/table/releases/download/v1.0.1/table_1.0.1_Darwin_x86_64.tar.gz"
-    sha256 "be8edb2de7d0ae728750466c08923419c7a9aacd9922af5677dee8bcdffd90d4"
+    url "https://github.com/elwin/table/releases/download/v1.0.2/table_1.0.2_Darwin_x86_64.tar.gz"
+    sha256 "01133acef610f27441aab039be7566548d422953124e1ddb4aa2989757240999"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/elwin/table/releases/download/v1.0.1/table_1.0.1_Linux_x86_64.tar.gz"
-      sha256 "26ab35be4c352a7e1735a6b5313907a308e74e563dc48c48b7024d774573a2a8"
+      url "https://github.com/elwin/table/releases/download/v1.0.2/table_1.0.2_Linux_x86_64.tar.gz"
+      sha256 "5f2c25abebacfa80d37eecdb26e374f077477e52ff5930ef6f6bf2da78464c0c"
     end
   end
 
